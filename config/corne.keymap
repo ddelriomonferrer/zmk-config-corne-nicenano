@@ -27,7 +27,7 @@
 			quick-tap-ms = <300>;
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
-			hold-trigger-key-positions = <1>
+			hold-trigger-key-positions = <7>
 		};
         
         // hold-tap fast
@@ -39,11 +39,11 @@
 			quick-tap-ms = <300>;
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
-			hold-trigger-key-positions = <1>
+			hold-trigger-key-positions = <7>
 		};
 
         // hold-tap slow
-		hts: hold_tap_mods_slow {
+		hts: hold_tap_mods_slow_left {
 			compatible = "zmk,behavior-hold-tap";
 			label = "HOMEROW_MODS";
 			#binding-cells = <2>;
@@ -51,7 +51,7 @@
 			quick-tap-ms = <200>;
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
-			hold-trigger-key-positions = <1>
+			hold-trigger-key-positions = <7>
 		};
 
 	};
