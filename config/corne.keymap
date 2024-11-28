@@ -18,6 +18,9 @@
 #define TES_L 6
 #define MOU_L 7
 
+&lt {
+    quick-tap-ms = <200>;
+};
 
 /	{
 	behaviors {
@@ -53,10 +56,6 @@
 			bindings = <&kp>, <&kp>;
 		};
 
-	};
-
-	&lt {
-	    quick-tap-ms = <200>;
 	};
 
 	keymap {
